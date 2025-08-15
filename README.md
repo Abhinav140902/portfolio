@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React, TypeScript, and Tailwin
 
 ## 🚀 Live Demo
 
-Visit my portfolio: [https://abhinav140902.github.io/portfolio-website](https://abhinav140902.github.io/portfolio-website)
+Visit my portfolio: [https://abhinav140902.github.io/portfolio](https://abhinav140902.github.io/portfolio)
 
 ## 🛠️ Tech Stack
 
@@ -43,8 +43,8 @@ Visit my portfolio: [https://abhinav140902.github.io/portfolio-website](https://
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Abhinav140902/portfolio-website.git
-cd portfolio-website
+git clone https://github.com/Abhinav140902/portfolio.git
+cd portfolio
 ```
 
 2. Install dependencies:
