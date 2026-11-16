@@ -111,12 +111,12 @@ function Photo() {
         src={profile.photo}
         alt={profile.name}
         onLoad={() => setLoaded(true)}
-        className={`h-full w-full object-cover grayscale transition duration-700 group-hover:scale-[1.03] group-hover:grayscale-0 ${
+        className={`h-full w-full object-cover transition duration-700 group-hover:scale-[1.03] md:grayscale md:group-hover:grayscale-0 ${
           loaded ? "opacity-100" : "opacity-0"
         }`}
       />
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-bg/70 via-transparent to-transparent" />
-      <p className="absolute bottom-5 left-5 font-mono text-[11px] uppercase tracking-widest text-fg/80">{profile.location}</p>
+      <p className="absolute bottom-5 left-5 font-mono text-[11px] uppercase tracking-widest text-fg/80">{profile.name}</p>
     </div>
   );
 }
