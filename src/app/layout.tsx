@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "Software engineer building backend systems and production AI agents. Experience at Aliveo AI and Matrack, plus SaaS and ERP projects.",
   openGraph: {
     title: "Abhinav Tadepalli · Backend & AI Engineer",
-    description: "Backends that don't break. AI that does real work.",
+    description: "Software engineer turning ideas into systems that run every day.",
     type: "website",
   },
 };

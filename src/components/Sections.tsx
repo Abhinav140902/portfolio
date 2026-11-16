@@ -40,15 +40,12 @@ export function Hero() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.4, duration: 1, ease: [0.22, 1, 0.36, 1] }}
-            className="mt-5 font-display text-4xl font-medium leading-[1.05] tracking-tight md:text-6xl"
+            className="mt-5 font-display text-[2.1rem] font-medium leading-[1.08] tracking-tight md:text-5xl"
           >
+            <span className="md:whitespace-nowrap">Software engineer turning ideas</span>{" "}
+            <br className="hidden md:block" />
             <span className="md:whitespace-nowrap">
-              Backends that <br className="md:hidden" />
-              don&apos;t break.
-            </span>
-            <br />
-            <span className="md:whitespace-nowrap">
-              AI that does <span className="font-serif font-normal italic text-accent">real work.</span>
+              into <span className="font-serif font-normal italic text-accent">systems that run every day.</span>
             </span>
           </motion.p>
         </div>
