@@ -16,7 +16,7 @@ export const profile = {
 
 export const about = {
   bio: [
-    "I spend most of my time in the backend: the queues, data models and APIs that everything else quietly depends on. Lately that means **AI agents**, and giving them the context, tools and guardrails to do real work safely.",
+    "I work across the stack, with my heart in the backend: APIs, data models and queues. Lately I've been building **AI agents** that do real work, safely, with the right context, tools and guardrails.",
     "Over three years I've taken products from an empty repo to production: a **CRM serving 100K+ customers**, agent workflows for marketing teams, and systems small businesses run on every day.",
   ],
   education: {
